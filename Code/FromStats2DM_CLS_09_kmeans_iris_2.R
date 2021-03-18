@@ -1,6 +1,6 @@
 #############################################################
 # From Statistics to Data Mining
-# Computer Lab Session n° 9:
+# Computer Lab Session nï¿½ 9:
 # Clustering -- k-means (iris with 2 attributes)
 #############################################################
 data("iris") # We are working with a dataframe
@@ -51,7 +51,7 @@ k <- as.integer(k)
 ####################################
 # Random choice of the first means #
 ####################################
-# For this choice, we are using the sample function (without remplacement)
+# For this choice, we are using the sample function (without replacement)
 random_points <- sample(1:dim, k, replace=F)
 # Assignment of values to the k means
 means <- matrix(nrow=k, ncol=n_c)
@@ -120,7 +120,7 @@ while (convergence_in_progress)
     {
     if (distances[j,1] < dist_min) # If the current distance is smaller than the minimum distance
       {
-      cluster <- j    # faire le changement de numéro de cluster...
+      cluster <- j    # faire le changement de numï¿½ro de cluster...
       dist_min <- distances[j,1]       # ...et de distance minimale
       }
     }

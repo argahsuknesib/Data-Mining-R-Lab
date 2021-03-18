@@ -4,8 +4,6 @@
 #           2019-2020            #            
 ##################################
 
-
-
 ###############################################################################
 # 1 Gaufres, Quatre-quarts, Crêpes, Îles flottantes et Beignets (40 points)   #
 ###############################################################################
@@ -13,9 +11,6 @@
 ###############################################################################
 
 rm(list=ls())
-
-
-
 
 # Totals quantities
 totals <- matrix(c(4935, 6075, 21375, 252, 22500), ncol=1)
@@ -45,8 +40,6 @@ beignets <- beignets / 6  # the recipe serves 6
 
 lin_eq <- cbind(waffle, quatre_quarts, crepes, iles_flottantes, beignets)
 lin_eq
-
-
 
 
 # sum(totaux[1,])
